@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/ahmedyasser002/kustomize-argoCD.git
     targetRevision: main
-    path: ../overlays/prod         
+    path: overlays/prod         
   destination:
     server: https://kubernetes.default.svc
     namespace: prod           
